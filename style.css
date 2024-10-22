@@ -1,0 +1,258 @@
+* {
+    font-family: "Playfair Display", serif;
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 100%;
+    
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+                url('https://admin.charlestoncvb.com/storage/listing-categories/123.jpg') no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    background-repeat: no-repeat;
+}
+.navbar-nav .nav-link {
+    font-weight: 700; /* Increase the font weight (400 is normal, 700 is bold) */
+}
+.nav2{
+    background-color: white;
+}
+.nav-item1 a {
+    color: #354242; /* Default color for larger screens */
+}
+.end {
+    position: absolute;
+    width: 65%;
+    bottom: -10%;
+    height: 60px;
+    background-color: white;
+    left: 20%;
+    
+}
+
+/* Hide .end on all screens smaller than 850px */
+@media (max-width: 1000px) { 
+    .main .end {
+        display: none !important;
+    }
+}
+@media (max-width: 850px) { /* For screens less than 850px */
+    .nav-item a {
+        color: white !important; 
+        
+    }
+}
+
+@media (max-width: 850px) { /* For screens less than 850px */
+    .navitem2 {
+        margin-left: -2%;
+        
+    }
+}
+
+
+
+
+
+/* Hide hr elements in collapsed state */
+@media (max-width: 991.98px) { /* Bootstrap's breakpoint for lg screens */
+    .nav-divider {
+        display: none; /* Hide hr elements */
+
+    }
+    
+
+}
+@media (max-width: 850px) { /* For screens less than 992px */
+    .nav2 {
+    background-color:transparent 
+    /* Remove background color */
+        
+    }
+}
+
+    
+
+@media (max-width: 850px) { /* For screens less than 992px */
+    .line{
+    display: none;
+        
+    }
+}
+.vertical-line {
+    width: 3px;               /* Thickness of the line */
+    height: 80px;            /* Height of the line */
+    background-color: white;  /* Color of the line */
+    margin: 0 10px;           /* Optional: Add some horizontal space around the line */
+}
+.vertical-line1 {
+    width: 2px;         /* Thickness of the line */
+    height: 35px;       /* Height of the line */
+    background-color: #354242; /* Color of the line */
+    display: inline-block;
+    margin-left: 3%;
+    margin-top: 1%; /* Ensures it behaves like a line */
+  }
+  
+
+/*section2*/
+#img1 {
+    background-image: url('https://www.charlestoncvb.com/assets/images/thumb.php?src=https://admin.charlestoncvb.com/storage/itineraries/b2776ed6b12994be25c2f2a9cb14ea8e.jpeg&w=1400');
+    background-size: cover;
+    background-attachment: fixed;
+    height: 600px;
+    width: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+#img2 {
+    background-image: url('https://superweston.net/wp-content/uploads/2022/07/MDE-GROVE-PARK-WSM-PICTURES-PAUL-BLAKEMORE-9-1920x929.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    height: 600px;
+    width: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+#img3 {
+    background-image: url('https://hauteliving.com/wp-content/uploads/2019/01/QcKfzM9x-1.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    height: 600px;
+    width: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+#img4 {
+    background-image: url('http://media.beam.usnews.com/97/8e/710e880a44b4ac9cb50268a1331e/170809-charlestoncitymarket-editorial.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    height: 600px;
+    width: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+
+.text-container {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: auto;
+    width: 50%;
+    background-color: white;
+    padding: 20px;
+}
+
+.gardenparty-box {
+    height: 30px;
+    width: 140px;
+    margin-left: 20px;
+    margin-top: 40px;
+    background-color: #E8ACA1;
+    padding: 5px;
+}
+
+.gardenparty-box h5 {
+    color: #354242;
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+.title {
+    margin-left: 20px;
+    font-size: 3em;
+    color: #000;
+}
+
+.description {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+@media (max-width: 900px) {
+    #img1 {
+        background-position: center;
+        height: 400px;
+        background-size: cover;
+    }
+
+    .text-container {
+        width: 90%;
+        padding: 10px;
+        margin-top: 10px;
+    }
+
+    .gardenparty-box {
+        margin-left: 10px;
+        width: 100px;
+        height: 60px;
+    }
+
+    .title {
+        margin-left: 10px;
+        font-size: 2em;
+    }
+
+    .description {
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 900px) {
+    #img1 {
+        height: auto;
+        padding-bottom: 50%;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .text-container {
+        width: 100%;
+        position: relative; /* Adjust to make sure it is visible */
+        background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent background */
+        padding: 10px;
+        bottom: 0;
+    }
+
+    .title {
+        font-size: 1.5em;
+    }
+
+    .description {
+        font-size: 14px;
+    }
+}
+
+.small-box {
+    background-color: #E8ACA1; /* Set the background color */
+    padding: 15px; /* Add padding to create space around the text */
+    display: inline-block; /* Keep the box size tight around the content */
+    border-radius: 5px; /* Optional: add rounded corners */
+    text-align: center; /* Center the text */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: add a subtle shadow */
+}
+
+.small-box h3 {
+    margin: 0; /* Remove default margin to keep the box size compact */
+    color: #354242; /* Adjust text color if needed for readability */
+    font-size: 18px; /* Adjust font size as needed */
+}
+@media (max-width: 850px) { /* For screens less than 992px */
+    .card {
+   margin-left: 6px;
+        
+    }
+}
+@media (max-width: 1200px) { /* For screens less than 992px */
+    .section6 {
+   height: 200px !important;
+        
+    }
+}
+.section3{
+    margin-top: -2%;
+}
